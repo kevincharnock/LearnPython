@@ -45,3 +45,10 @@ def soma(*numeros):
     return result    
 x = soma(2,3,4,8)
 print(x)
+
+# * = xargs que podem ser varios argumentos e varios parametros
+def agencia(**carro):
+    return carro
+
+print(agencia(marca = 'Gol', cor = 'Branca',motor = 1.0, placa=321))
+print(agencia(marca = 'Gol', cor = 'Azul',motor = 1.0))
