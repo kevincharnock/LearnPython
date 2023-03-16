@@ -72,3 +72,13 @@ drinks = ['soda','refri']
 
 twoLists = zip(food, drinks)
 print(list(twoLists))
+
+
+#INPUT NA LISTA
+frutasUsuario = input('Digite o nome das frutas separados por Virgula: ')
+print(frutasUsuario)
+
+#Split serve para separar por determinado parametro
+frutasList = frutasUsuario.split(',')
+print(frutasList)
+
