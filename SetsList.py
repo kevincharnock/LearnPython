@@ -14,3 +14,9 @@ print(num1 ^ num2) #Symetric Difference
 print(num1 & num2) # And
 
 
+#StringSets
+set1 = {'a','b','c'}
+set2 = {'a','d','e'}
+
+set3 = set1.union(set2)
+print(set3)
